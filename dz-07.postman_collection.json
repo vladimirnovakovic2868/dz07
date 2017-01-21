@@ -1,0 +1,74 @@
+{
+	"id": "39bef01d-afc4-6282-c997-f8bc9d47fe49",
+	"name": "dz-07",
+	"description": "",
+	"order": [
+		"26d8c1e5-2479-069c-eb28-954286eb1a93",
+		"41a695cf-ffec-f2b1-94a7-d0733e75e5ee"
+	],
+	"folders": [],
+	"timestamp": 1484964330918,
+	"owner": "765438",
+	"public": false,
+	"requests": [
+		{
+			"id": "26d8c1e5-2479-069c-eb28-954286eb1a93",
+			"headers": "",
+			"url": "localhost/it255-dz07/index.php?a=12&b=3&operation=plus",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "39bef01d-afc4-6282-c997-f8bc9d47fe49",
+			"data": null,
+			"dataMode": "params",
+			"name": "localhost/it255-dz07/index.php?a=12&b=3&operation=plus",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1484964454026,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "41a695cf-ffec-f2b1-94a7-d0733e75e5ee",
+			"headers": "",
+			"url": "localhost/it255-dz07/index.php",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "39bef01d-afc4-6282-c997-f8bc9d47fe49",
+			"data": [
+				{
+					"key": "subject",
+					"value": "heloooooooo",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "string",
+					"value": "ooo",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "replace",
+					"value": "blaaah",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "localhost/it255-dz07/index.php",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1484964602274,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
